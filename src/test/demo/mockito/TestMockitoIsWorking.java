@@ -9,6 +9,8 @@ import static org.mockito.Mockito.*;
 
 /**
  * Created by nick on 02/09/2014.
+ *
+ * See https://code.google.com/p/mockito/ for more docs on Mockito
  */
 public class TestMockitoIsWorking {
 
