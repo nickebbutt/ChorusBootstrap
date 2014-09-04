@@ -44,12 +44,12 @@ public class GildedRoseHandler {
         itemSellIn = sellIn;
     }
 
-    @Step(".*I update quality$")
+    @Step(".*I process end of day$")
     public void i_update_quality() throws Throwable {
         Item item = new Item(itemName, itemSellIn, itemQuality);
         Item[] items = new Item[]{item};
         gildedRose = new GildedRose(items);
-        gildedRose.updateQuality();
+        gildedRose.processEndOfDay();
     }
 
     @Step(".*the quality is updated to (-?\\d+)$")
