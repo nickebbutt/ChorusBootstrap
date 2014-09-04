@@ -12,7 +12,7 @@ public class AllChorusTests {
 
     public static String getChorusArgs() {
         return "-f src " +     //find feature files under src beneath the working directory
-               "-h demo " +    //find handler classes in packages starting with demo
+               "-h com.gildedrose " +    //find handler classes in packages starting with demo
                "-c ";          //use console mode for output
 
     }
