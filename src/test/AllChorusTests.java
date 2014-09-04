@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
 public class AllChorusTests {
 
     public static String getChorusArgs() {
-        return "-f src " +     //find feature files under src beneath the working directory
-               "-h demo " +    //find handler classes in packages starting with demo
+        return "-f src/test/com/gildedrose " +     //find feature files under src beneath the working directory
+               "-h com.gildedrose " +    //find handler classes in packages starting with demo
                "-c ";          //use console mode for output
 
     }
